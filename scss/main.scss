@@ -1,5 +1,51 @@
-.pink {
-    background-color: brown;
-    width: 100px;
-    height: 100px;
+@import 'reset.scss';
+.body{
+    width: 100%;
+    height: 100%;
+  
+    background-image: linear-gradient(-90deg,#aba0b6, #93afbe);
+}
+.full-view{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    .header-ul{
+        display: flex;
+        width: 50%;
+        margin-top: 35px;
+     .header-li{
+        font-weight: bold;
+        font-size: 20px;
+        margin-right: 200px;
+  
+        .header-a{
+            color: black;
+            &:hover{
+                color: rgb(233, 223, 223);
+            }
+        }
+     }
+     .header-li3{
+        font-weight: bold;
+        font-size: 20px;
+       .header-a{
+        color: black;
+        &:hover{
+            color: rgb(233, 223, 223);
+        }
+    } 
+       }
+        }
+}
+//////////header navigation//////////////
+
+
+///////////////main logo//////////////////
+.header-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 9%;
 }
